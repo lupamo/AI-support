@@ -1,0 +1,5 @@
+/apps/api-getway/node_modules
+/apps/api-getway/.env
+/apps/api-getway/package-lock.json
+package-lock.json
+/node_modules
