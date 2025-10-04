@@ -7,7 +7,7 @@ class TicketBody(BaseModel):
 	ticket_id: str
 	text: str
 
-@app.post("/ml/health")
+@app.get("/ml/health")
 def health_check():
 	return {"status": "ok", "service": "ML service"}
 
